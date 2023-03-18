@@ -1,0 +1,25 @@
+.song{
+    width: 100%;
+    background-color: #1d1d1d;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+}
+.song>p{
+    padding: 1%;
+}
+.song>.number{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: -10%;
+}
+.song>.number>p{
+    
+}

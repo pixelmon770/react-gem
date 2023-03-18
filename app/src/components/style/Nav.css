@@ -1,6 +1,8 @@
 .Nav{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.452);
     height: 12vh;
+    position: absolute;
+    width: 100%;
 }
 .Nav>div.arrows{
     display: flex;

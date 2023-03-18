@@ -2,7 +2,9 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Header</div>
+    <div>
+      <img src='/assets/zdj1.png' alt='songs'/>
+    </div>
   )
 }
 
