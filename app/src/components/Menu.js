@@ -1,8 +1,10 @@
 import React from 'react'
-
+import "./style/menu.css"
 function Menu() {
   return (
-    <div>Menu</div>
+    <div className='menu'>
+
+    </div>
   )
 }
 

@@ -1,0 +1,8 @@
+.menu{
+    width: 100%;
+    position: fixed;
+    height: 84px;
+    background-color: #000;
+    z-index: 100;
+    
+}
