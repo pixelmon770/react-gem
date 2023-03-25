@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>
-      <img src='/assets/zdj1.png' alt='songs'/>
+    <div className='h-96 w-full'>
+      <img src='/assets/zdj1.png' alt='songs' className=""/>
     </div>
   )
 }

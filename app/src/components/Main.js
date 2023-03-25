@@ -1,28 +1,18 @@
 import React from 'react'
-import "./style/main.css"
 import Song from './Song'
 
-function Main() {
-  const data = [
-    {
-      nr: "1",
-      title: "Good 4 U",
-      artist: "Olivia Rodrigo",
-      time: "3:20",
-    },
-    {
-      nr: "2",
-      title: "Good 4 U",
-      artist: "Olivia Rodrigo",
-      time: "3:20",
-    }
-  ]
-
+const Main = (props) => {
   return (
     <div>
-      <div className='Main'>
-        <Song nr={data[0].nr} title={data[0].title} artist={data[0].artist} time={data[0].time}></Song>
-        <Song nr={data[1].nr} title={data[1].title} artist={data[1].artist} time={data[1].time}></Song>
+      <div className='w-11/12 ml-12'>
+        {props.song.map(dat =>
+          <Song
+            key={dat.nr}
+            title={dat.title}
+            artist={dat.artist}
+            time={dat.time}
+            />
+        )}
       </div>
     </div>
   )
